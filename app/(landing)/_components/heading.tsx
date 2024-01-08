@@ -23,7 +23,7 @@ export const Heading = () => {
             </div>
           )}
           {isAuthenticated && !isLoading && (
-            <Link href="/notes">
+            <Link href="/documents">
               <Button>Your Slate</Button>
             </Link>
           )}
